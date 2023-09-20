@@ -1,0 +1,33 @@
+import 'dart:async';
+import 'dart:io';
+
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_stopmcu/blocs/auth/auth_bloc.dart';
+import 'package:flutter_stopmcu/blocs/peserta/peserta_bloc.dart';
+import 'package:flutter_stopmcu/blocs/test/test_bloc.dart';
+import 'package:flutter_stopmcu/models/forms/peserta_form_model.dart';
+import 'package:flutter_stopmcu/models/forms/sign_in_form_model.dart';
+import 'package:flutter_stopmcu/models/forms/sign_up_form_model.dart';
+import 'package:flutter_stopmcu/models/forms/test_form_model.dart';
+import 'package:flutter_stopmcu/models/peserta_model.dart';
+import 'package:flutter_stopmcu/models/tes_peserta_model.dart';
+import 'package:flutter_stopmcu/models/user_model.dart';
+import 'package:flutter_stopmcu/presentations/widgets/widgets.dart';
+import 'package:flutter_stopmcu/shared/shared.dart';
+import 'package:file_picker/file_picker.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:pdf/widgets.dart' as pw;
+import 'package:permission_handler/permission_handler.dart';
+import 'package:stop_watch_timer/stop_watch_timer.dart';
+
+part 'home_page.dart';
+part 'login_page.dart';
+part 'register_page.dart';
+part 'splash_page.dart';
+part 'add_page.dart';
+part 'detail_page.dart';
+part 'tes_page.dart';

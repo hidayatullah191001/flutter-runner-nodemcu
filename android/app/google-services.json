@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "880896149366",
+    "firebase_url": "https://stopnodemcu-default-rtdb.firebaseio.com",
+    "project_id": "stopnodemcu",
+    "storage_bucket": "stopnodemcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880896149366:android:a6c1084ffec01342779c57",
+        "android_client_info": {
+          "package_name": "com.example.flutter_stopmcu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2wVPiHTfub0uxcld_ncJM5J93hY_k7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
